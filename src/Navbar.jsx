@@ -7,17 +7,14 @@ export default function Navbar() {
   return (
     <header className="shadow-md bg-white sticky top-0 z-50">
       <nav className="container mx-auto flex items-center justify-between p-4 md:p-6">
-        {/* Logo */}
-        <Link to="/" className="flex flex-col items-center select-none cursor-pointer">
-          <div className="text-3xl font-bold flex space-x-1">
-            <span className="text-blue-600">C</span>
-            <span className="text-black">G</span>
-          </div>
-          <div className="text-xs font-semibold tracking-wide leading-tight">
-            <span className="text-blue-600">cool</span> <span className="text-black">ghar</span>
-          </div>
-        </Link>
-
+{/* logo */}
+<Link to="/" className="flex flex-col items-center select-none cursor-pointer">
+  <img
+    src="src/assets/logo2.jpeg" // yahan apna image path dalen
+    alt="Logo"
+    className="w-16 h-16 object-contain mb-1"
+  />
+</Link>
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-8 font-medium text-blue-700">
           <Link to="/" className="hover:text-black transition">Home</Link>
@@ -99,5 +96,5 @@ export default function Navbar() {
         </p>
       </div>
     </header>
-  );
+  )
 }

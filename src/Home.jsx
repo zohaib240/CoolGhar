@@ -38,13 +38,18 @@ const Home = () => {
           className="w-full h-full object-cover object-top transition duration-1000"
         />
       </div>
+      <div className="w-full bg-gradient-to-r from-red-600 to-red-400 text-white py-3 px-4">
+      <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-center sm:text-left">
+    <p className="text-sm sm:text-base md:text-lg font-medium">
+      Need urgent service? We're just a call away!
+    </p>
+    <div className="flex items-center gap-2 bg-white text-red-600 px-3 py-1 rounded-full shadow-md">
+      <FaPhone className="text-lg sm:text-xl" />
+      <span className="font-semibold text-sm sm:text-base tracking-wide">0332-0211826</span>
+    </div>
+  </div>
+</div>
 
-      {/* Emergency Banner */}
-      <div className="w-full bg-red-500 text-white text-sm sm:text-base md:text-lg font-semibold py-2 text-center px-4 flex justify-center items-center gap-2">
-        If You Want Urgent Any Services, Call Now :
-        <FaPhone className="text-black text-xl sm:text-2xl" />
-        <span>0332-0211826</span>
-      </div>
 
       {/* Service Sections */}
 {[

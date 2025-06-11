@@ -34,10 +34,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Follow Us</h3>
           <div className="flex space-x-4 text-xl text-white">
-            <a href="#"><FaFacebookF className="hover:text-blue-300" /></a>
+            <a href="https://www.facebook.com/share/p/16Y3yfxsSr/?mibextid=qi2Omg"><FaFacebookF className="hover:text-blue-300" /></a>
             <a href="#"><FaTwitter className="hover:text-blue-300" /></a>
             <a href="#"><FaInstagram className="hover:text-blue-300" /></a>
-            <a href="#"><FaLinkedinIn className="hover:text-blue-300" /></a>
+            <a href="https://www.linkedin.com/in/umair-siddique-39827b30a"><FaLinkedinIn className="hover:text-blue-300" /></a>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full px-3 py-2 rounded text-black text-sm mb-2"
+            className="w-full px-3 py-2 rounded text-white text-sm mb-2"
           />
           <button className="w-full bg-white text-blue-900 py-2 rounded font-semibold text-sm hover:bg-blue-100 transition">
             Subscribe
