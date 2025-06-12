@@ -1,4 +1,5 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const servicesData = [
   {
@@ -58,7 +59,16 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="px-6 py-12 bg-gray-50 min-h-screen">
+    <div className="px-6 py-12 bg-gray-50 min-h-screen relative">
+      {/* WhatsApp Floating Icon */}
+            <a
+              href="https://wa.me/923320211826"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="fixed bottom-6 right-6 z-50 bg-green-500 p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
+            >
+              <FaWhatsapp className="text-white text-2xl" />
+            </a>
       {/* Top Heading */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-bold text-blue-700">
@@ -95,9 +105,11 @@ const Services = () => {
                   {service.description}
                 </p>
               </div>
-              <button className="mt-4 bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition text-sm sm:text-base">
+              <a
+                href="tel:03320211826"
+                className="mt-4 bg-blue-700 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition text-sm sm:text-base text-center">
                 {service.btnText}
-              </button>
+              </a>
             </div>
           </div>
         ))}
