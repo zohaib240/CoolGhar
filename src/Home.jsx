@@ -41,8 +41,8 @@ const Home = () => {
       <div className="w-full bg-gradient-to-r from-red-600 to-red-400 text-white py-3 px-4">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-center sm:text-left">
     <p className="text-sm sm:text-base md:text-lg font-medium">
-      Need urgent service? We're just a call away!
-    </p>
+  Fast & reliable service all over Karachi — call now!
+</p>
     <div className="flex items-center gap-2 bg-white text-red-600 px-3 py-1 rounded-full shadow-md">
       <FaPhone className="text-lg sm:text-xl" />
       <span className="font-semibold text-sm sm:text-base tracking-wide">0332-0211826</span>
