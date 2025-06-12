@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,12 +23,13 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
-          <ul className="space-y-2 text-sm text-gray-300">
-            <li><a href="/" className="hover:text-white">Home</a></li>
-            <li><a href="/services" className="hover:text-white">Services</a></li>
-            <li><a href="/blogs" className="hover:text-white">Blogs</a></li>
-            <li><a href="/contact" className="hover:text-white">Contact</a></li>
-          </ul>
+         <div className="flex flex-col space-y-2 text-sm text-gray-300">
+         <Link to="/" className="hover:text-white">Home</Link>
+         <Link to="/services" className="hover:text-white">Services</Link>
+         <Link to="/blogs" className="hover:text-white">Blogs</Link>
+         <Link to="/contact" className="hover:text-white">Contact</Link>
+       </div>
+
         </div>
 
         {/* Social Media */}
