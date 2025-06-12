@@ -3,7 +3,7 @@ import React from "react";
 const servicesData = [
   {
     title: "Professional AC Services",
-    image: "src/assets/img 3.jpg",
+    image: "/assets/img 3.jpg",
     description: `
       At CoolGhar, we offer expert-level AC repair and maintenance services for all major brands and models.
       Our services include:
@@ -18,7 +18,7 @@ const servicesData = [
   },
   {
     title: "Fridge Repair & Maintenance",
-    image: "src/assets/img 4.jpg",
+    image: "/assets/img 4.jpg",
     description: `
       Whether it's a single or double-door fridge, CoolGhar provides:
       ✅ Gas filling & leakage control
@@ -31,7 +31,7 @@ const servicesData = [
   },
   {
     title: "Expert Chiller Services",
-    image: "src/assets/img 5.jpg",
+    image: "/assets/img 5.jpg",
     description: `
       We specialize in residential & commercial chiller systems:
       ✅ Uneven cooling or tripping
@@ -44,7 +44,7 @@ const servicesData = [
   },
   {
     title: "Water Dispenser Services",
-    image: "src/assets/dispenser.webp",
+    image: "/assets/dispenser.webp",
     description: `
       We provide professional hot & cold dispenser repair services:
       ✅ No cooling or heating

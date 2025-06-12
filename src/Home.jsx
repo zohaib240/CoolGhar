@@ -3,8 +3,8 @@ import { FaPhone, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const heroImages = [
-  "src/assets/img 1 (2).jpg",
-  "src/assets/img 2.jpg"
+  "/assets/img 1 (2).jpg",
+  "/assets/img 2.jpg"
 ];
 
 const Home = () => {
@@ -55,7 +55,7 @@ const Home = () => {
 {[
   {
     title: "Professional AC Services",
-    img: "src/assets/img 3.jpg",
+    img: "/assets/img 3.jpg",
     content: `At CoolGhar, we offer expert-level AC repair and maintenance services delivered right to your doorstep. Our team of professionals is trained to handle all types of AC issues, ensuring optimal performance and energy efficiency.
 
 ✅ AC not cooling properly
@@ -69,7 +69,7 @@ const Home = () => {
   },
   {
     title: "Fridge Services by CoolGhar",
-    img: "src/assets/img 4.jpg",
+    img: "/assets/img 4.jpg",
     content: `CoolGhar provides comprehensive fridge repair and maintenance services for all major brands and models. Whether it's a cooling issue or a faulty component, our technicians will resolve it efficiently.
 
 ✅ Gas filling & leakage
@@ -82,7 +82,7 @@ const Home = () => {
   },
   {
     title: "Expert Chiller Services",
-    img: "src/assets/img 5.jpg",
+    img: "/assets/img 5.jpg",
     content: `CoolGhar provides reliable chiller services for residential and commercial clients. Our technicians are equipped to troubleshoot and fix all chiller-related problems.
 
 ✅ Compressor malfunction
@@ -96,7 +96,7 @@ const Home = () => {
   },
   {
     title: "Reliable Dispenser Services",
-    img: "src/assets/dispenser.webp",
+    img: "/assets/dispenser.webp",
     content: `CoolGhar provides efficient and affordable dispenser repair services. From water not heating/cooling to leakage problems, we handle it all.
 
 ✅ No cooling or heating

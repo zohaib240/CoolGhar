@@ -10,7 +10,7 @@ const Navbar = () => {
 {/* logo */}
 <Link to="/" className="flex flex-col items-center select-none cursor-pointer">
   <img
-    src="src/assets/logo2.jpeg" 
+    src="/assets/logo2.jpeg" 
     alt="Logo"
     className="w-16 h-16 object-contain mb-1"
   />
