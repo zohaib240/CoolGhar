@@ -6,7 +6,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className="bg-blue-900 text-white py-10 px-6 md:px-20 mt-10">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -62,3 +62,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer
+

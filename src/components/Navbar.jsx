@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
 {/* logo */}
 <Link to="/" className="flex flex-col items-center select-none cursor-pointer">
   <img
-    src="src/assets/logo2.jpeg" // yahan apna image path dalen
+    src="src/assets/logo2.jpeg" 
     alt="Logo"
     className="w-16 h-16 object-contain mb-1"
   />
@@ -98,3 +98,6 @@ export default function Navbar() {
     </header>
   )
 }
+
+
+export default Navbar
